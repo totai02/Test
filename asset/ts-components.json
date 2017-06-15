@@ -1,0 +1,55 @@
+{
+"frames": {
+	"ColumnSeparator": {
+		"frame": {"x":0, "y":804, "w":2, "h":58},
+		"spriteSourceSize": {"x":0,"y":0,"w":2,"h":58},
+		"sourceSize": {"w":2,"h":58}
+	},
+	"TourSpectator": {
+		"frame": {"x":0, "y":789, "w":16, "h":14},
+		"spriteSourceSize": {"x":0,"y":0,"w":16,"h":14},
+		"sourceSize": {"w":16,"h":14}
+	},
+	"base-popup-title": {
+		"frame": {"x":0, "y":703, "w":311, "h":43},
+		"spriteSourceSize": {"x":0,"y":0,"w":311,"h":43},
+		"sourceSize": {"w":311,"h":43}
+	},
+	"box": {
+		"frame": {"x":0, "y":368, "w":410, "h":334},
+		"spriteSourceSize": {"x":0,"y":0,"w":410,"h":334},
+		"sourceSize": {"w":410,"h":334}
+	},
+	"horizontal-line": {
+		"frame": {"x":0, "y":786, "w":123, "h":2},
+		"spriteSourceSize": {"x":0,"y":0,"w":123,"h":2},
+		"sourceSize": {"w":123,"h":2}
+	},
+	"popup_bg": {
+		"frame": {"x":0, "y":0, "w":654, "h":367},
+		"spriteSourceSize": {"x":0,"y":0,"w":654,"h":367},
+		"sourceSize": {"w":654,"h":367}
+	},
+	"popup_bg2": {
+		"frame": {"x":411, "y":368, "w":381, "h":315},
+		"spriteSourceSize": {"x":0,"y":0,"w":381,"h":315},
+		"sourceSize": {"w":381,"h":315}
+	},
+	"room-number-background": {
+		"frame": {"x":0, "y":747, "w":135, "h":38},
+		"spriteSourceSize": {"x":0,"y":0,"w":135,"h":38},
+		"sourceSize": {"w":135,"h":38}
+	},
+	"tour-huong": {
+		"frame": {"x":655, "y":0, "w":248, "h":302},
+		"spriteSourceSize": {"x":0,"y":0,"w":248,"h":302},
+		"sourceSize": {"w":248,"h":302}
+	}
+
+},
+"meta": {
+	"image": "ts-components.png",
+	"size": {"w": 904, "h": 863},
+	"scale": "1"
+}
+}

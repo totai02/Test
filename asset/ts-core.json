@@ -1,0 +1,20 @@
+{
+"frames": {
+	"1": {
+		"frame": {"x":0, "y":19, "w":18, "h":18},
+		"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
+		"sourceSize": {"w":18,"h":18}
+	},
+	"2": {
+		"frame": {"x":0, "y":0, "w":18, "h":18},
+		"spriteSourceSize": {"x":0,"y":0,"w":18,"h":18},
+		"sourceSize": {"w":18,"h":18}
+	}
+
+},
+"meta": {
+	"image": "ts-core.png",
+	"size": {"w": 19, "h": 38},
+	"scale": "1"
+}
+}

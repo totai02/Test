@@ -1,0 +1,271 @@
+@import "bootstrap.css";
+
+#popup-title {
+    border-image: url("dom/base-popup-title.png") fill 21 70 22 57 / 21px 70px 22px 57px stretch;
+    height: 43px;
+    margin: -24px auto 0px;
+    color: #633f21;
+    font-family: UTMAvoBold;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.thong-bao-item .item-title {
+    border-image: url('dom/bg_up.png') fill 30 / 30px stretch;
+    width: 217px;
+    height: 103px;
+    line-height: 103px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.thong-bao-item .item-title pre {
+    word-wrap: break-word;
+    width: 200px;
+    white-space: pre-wrap;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 103px;
+}
+
+.thong-bao-item .item-title pre a {
+    font-family: UTMAvoBold;
+    color: #715844;
+}
+
+.thong-bao-item .item-content {
+    border-image: url('dom/popup_bg2.png');
+    font-family: Tahoma;
+    position: absolute;
+    right: 22px;
+    top: 0px;
+    width: 381px;
+    height: 315px;
+    color: #301c0e;
+    font-size: 14px;
+    line-height: 19px;
+    display: none;
+}
+
+.thong-bao-item:target .item-content {
+    display: block;
+}
+
+.thong-bao-item .item-title:hover {
+    border-image-source: url('dom/bg_hover.png');
+}
+
+#danhsach-thisinh {
+    background: url('dom/BaoDanhListBg.png') no-repeat;
+    width: 410px;
+    height: 334px;
+    float: left;
+}
+
+table#tieude-danhsach-thisinh {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    width: 392px;
+    font-family: "Tahoma";
+    font-size: 15px;
+    color: #715844
+}
+
+#than-danhsach-thisinh {
+    width: 400px;
+    height: 259px;
+    margin-top: 8px;
+}
+
+.stt-thisinh {
+    width: 15%;
+}
+
+.ten-thisinh {
+    width: 45%;
+}
+
+.table > thead > tr > th {
+    border: none;
+}
+
+.table > thead > tr > th.separateHeader {
+    background: url("dom/line-doc-header.png") center no-repeat;
+    width: 2px;
+    padding: 0px;
+}
+
+.table > tbody > tr > td {
+    border: none;
+    text-align: center;
+    padding: 0px;
+    height: 29px;
+    vertical-align: middle;
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #715844;
+}
+
+#chatMessages {
+    width: 278px;
+    height: 285px;
+}
+
+.scrollable {
+    scrollable: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: url("dom/scrollbar-thumb.png") no-repeat;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #e9e0c5;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: url("dom/scrollbar-track.png") no-repeat;
+}
+
+.box-footer .btn {
+    padding: 15px 16px;
+    border: 0 solid transparent;
+    background-image: url('dom/chat_icon_normal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-footer .btn:hover,
+.box-footer .btn:focus {
+    background-image: url('dom/chat_icon_hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chatInput {
+    background: black;
+    border: none;
+    border-radius: 4px;
+    height: 29px;
+    width: 233px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    color: #fff;
+}
+
+#chatInput::-moz-placeholder {
+    color: #d3d3d3;
+    opacity: 1;
+}
+
+#chatInput::-webkit-input-placeholder {
+    position: relative;
+    left: 13px;
+    color: #d3d3d3;
+}
+
+#chatInput:-ms-input-placeholder {
+    color: #d3d3d3;
+}
+
+#nut-emoticon {
+    position: relative;
+    left: 5px;
+    top: 6px;
+}
+
+#emoticon {
+    width: 330px;
+    height: 190px;
+    left: -97px;
+}
+
+#chatInputBg {
+    background: url('dom/bg_footer_chat.png') no-repeat;
+    width: 277px;
+    height: 41px;
+    position: relative;
+}
+
+#chatBg {
+    background: url('dom/chat_bg.png') no-repeat;
+    width: 278px;
+    height: 326px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 12px;
+}
+
+.table > tbody > tr > td.separateRow {
+    background: url("dom/line-ngang-row.png") center no-repeat;
+    width: 381px;
+    height: 2px;
+    padding: 0px;
+}
+#noidung-siso-baodanh {
+    font-family: Tahoma;
+    color: #434343;
+    font-size: 14px;
+    margin-top: 6px;
+    text-align: center;
+}
+
+div#base-popup {
+    border-image: url("dom/popup_bg.png") fill 116 / 116px stretch;
+    position: absolute;
+}
+
+#content-column {
+    position: relative;
+    top: 8px;
+    left: 17px;
+}
+
+#thong-bao-close,
+#thong-bao-close:active {
+    position: absolute;
+    top: -9px;
+    right: -21px;
+    background: url("dom/close_btn_up.png") transparent;
+    border: none;
+    width: 69px;
+    height: 68px;
+}
+
+div#popup-content > div > span {
+    color: #b70c0c;
+    font-weight: bold;
+}
+
+#popup-content {
+    padding: 7px 15px;
+    position: relative;
+}
+
+#thoigian-baodanh {
+    border-image: url('dom/text_bg.png') fill 17 32 / 17px 32px stretch;
+    width: 423px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin: auto;
+    color: #603b1f;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+#popup-corner {
+    background: url("dom/popup_conner.png") no-repeat;
+    width: 135px;
+    height: 243px;
+    position: absolute;
+    top: -11px;
+    left: -8px;
+}
